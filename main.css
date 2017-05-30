@@ -1,19 +1,8 @@
-<!DOCTYPE html>
+body{
+    font-family: Menlo;
+}
 
-<html lang = en>
- <header>
-        <meta charset="UTF-8">
-        <title>Alexander Chin </title>
-        <meta name = "description" content="A personal website">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="main.css">
- </header>
-  <head>
-       <h1>Hello Worldd</h1>
-  </head>
-   <body>
+h1{
+    background-color: aliceblue;
+}
 
-   </body>
-
-
-</html>
