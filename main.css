@@ -1,8 +1,30 @@
-body{
+body {
     font-family: Menlo;
+    background-color: white;
 }
 
-h1{
-    background-color: aliceblue;
+h1 {
+    text-align: center;
+    color: red;
 }
 
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+
+}
+
+#xd {
+    font-style: oblique;
+    color: blueviolet;
+}
+
+p.error {
+    color: aliceblue;
+}
