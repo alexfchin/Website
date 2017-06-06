@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
     <link rel="stylesheet" href="fonts/Menlo-Regular.ttf">
-    <link rel="stylesheet" href="main.css">
+
     <!--Website Icon-->
 
     <link rel="icon" href="icons/blueAC.png">
@@ -24,24 +24,33 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 
-<body>
-    <div class="container.fluid">
-        <h1>Hello world</h1>
+<body id ="bootstrap-overrides" style="font-family:Menlo;">
 
-        <div class="row">
-            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-            <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
-            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-        </div>
+    <div class="header">
+        <h1>{Alex Chin}</h1>
     </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
 
 
     <div class="container">
-        <div class="jumbotron">
+        <div class="box">
             <h1>Jumbotron</h1>
             <p>blah blah blah</p>
         </div>
