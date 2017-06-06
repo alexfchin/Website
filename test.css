@@ -1,0 +1,15 @@
+div.box {
+    border-style: solid;
+    border-top: solid;
+    border-top-width: 10px;
+    border-top-color: red;
+    padding: 20px;
+
+}
+
+span.text-body{
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
