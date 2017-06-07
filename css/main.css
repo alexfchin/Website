@@ -1,5 +1,6 @@
 .header {
     color: red;
+    text-align: center;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
 
 .box{
     text-align: center;
-
     border: solid;
     color:aqua;
     position:fixed;
@@ -19,10 +19,6 @@ body {
     height:18em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
-}
-
-.header {
-    text-align: center;
 }
 
 .navbar-inverse {

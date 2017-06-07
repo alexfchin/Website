@@ -16,7 +16,7 @@
     <link rel="icon" href="icons/blueAC.png">
 
 
-
+    <!--    @twitter bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery library -->
@@ -24,15 +24,21 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- credit to http://www.mattboldt.com/ -->
+    <script src="js/typed.js"></script>
+<!--    Personal style sheet-->
     <link rel="stylesheet" href="css/main.css">
+     <script src="js/baffle.min.js" type="text/javascript"></script>
 </head>
 
 
 <body id="bootstrap-overrides" style="font-family:Menlo;">
 
-    <div class="header">
-        <h1>{Alex Chin}</h1>
-    </div>
+
+    <h1  class="header">{Alex Chin}</h1>
+
 
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container-fluid">
@@ -53,20 +59,33 @@
         <div class="box">
             <span id="typed"></span>
             <span class="typed-cursor"></span>
-            <p>blah blah blah</p>
+            <p class="blah">blah blah blah</p>
         </div>
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/typed.js"></script>
+
+
+    <!--on load typewriter effect-->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             Typed.new('#typed', {
-                strings: ["First sentence.", "Second sentence."],
+                strings: ["Student", "xd", "Second sentence."],
                 typeSpeed: 0
             });
         });
     </script>
+
+    <!--    baffle effect-->
+    <script>
+        var b = window.baffle(".header", {
+            characters: 'b6c7807bb105d867000',
+            speed: 50
+        });
+        b.start().once.reveal(500, 500);
+    </script>
+
+
+
 </body>
 
 </html>
