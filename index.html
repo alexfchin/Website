@@ -28,7 +28,7 @@
 </head>
 
 
-<body id ="bootstrap-overrides" style="font-family:Menlo;">
+<body id="bootstrap-overrides" style="font-family:Menlo;">
 
     <div class="header">
         <h1>{Alex Chin}</h1>
@@ -37,7 +37,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Portfolio</a></li>
@@ -51,39 +51,22 @@
 
     <div class="container">
         <div class="box">
-            <h1>Jumbotron</h1>
+            <span id="typed"></span>
+            <span class="typed-cursor"></span>
             <p>blah blah blah</p>
         </div>
-        <p>blah blah blah</p>
     </div>
 
-    <!--   logo to restart site-->
-    <!--
-    <a href="index.html"><img src="icons/alexchinLogo.png" alt="home" style="width:150px;height:50px;"></a>
-
-    <ul id="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resume</a></li>
-        <li>
-            <a href="#"><img src="icons/alexchinLogo.png" style="width:100px;height"></a>
-        </li>
-    </ul>
-
-    <div class="square">
-        <div class="text-body">
-
-        </div>
-    </div>
-
-    <h1 style="text-align:center;">Hello World</h1>
-    <a href="http://www.google.com">Magical google search engine</a>
-    <a href="test.html">you can go to things by ID!</a>
-    <hr title="divide screen">
--->
-
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Typed.new('#typed', {
+                strings: ["First sentence.", "Second sentence."],
+                typeSpeed: 0
+            });
+        });
+    </script>
 </body>
 
 </html>
