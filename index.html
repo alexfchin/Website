@@ -43,11 +43,11 @@
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li id="home"><a href="index.html">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li id="home"><a href="#">Home</a></li>
+                <li id="aboutMe"><a href="#">About Me</a></li>
+                <li id="skills"><a href="#">Skills</a></li>
+                <li id="portfolio"><a href="#">Portfolio</a></li>
+                <li id="contactMe"><a href="#">Contact Me</a></li>
             </ul>
         </div>
     </nav>
@@ -67,13 +67,55 @@
 
     <!--on load typewriter effect-->
     <script>
-        document.getElementById("home").addEventListener('click', function() {
+        document.addEventListener("DOMContentLoaded", function() {
             Typed.new('#typed', {
-                strings: ["Student", "Developer", "Alex Chin"],
+                strings: ["Hello!"],
                 typeSpeed: 0
             });
         });
+
+        document.getElementById("home").addEventListener('click', function() {
+            Typed.new('#typed', {
+                strings: ["Hello!"],
+                typeSpeed: 0
+            });
+        });
+
+        document.getElementById("aboutMe").addEventListener('click', function() {
+            Typed.new('#typed', {
+                strings: ["About Me"],
+                typeSpeed: 0
+            });
+        });
+
+        document.getElementById("skills").addEventListener('click', function() {
+            Typed.new('#typed', {
+                strings: ["Skills"],
+                typeSpeed: 0
+            });
+        });
+        //include languages and technologies
+
+        document.getElementById("portfolio").addEventListener('click', function() {
+            Typed.new('#typed', {
+                strings: ["PORTFOLIO"],
+                typeSpeed: 0
+            });
+        });
+        //relevant course work and projects
+
+        document.getElementById("contactMe").addEventListener('click', function() {
+            Typed.new('#typed', {
+                strings: ["CONTACT ME"],
+                typeSpeed: 0
+            });
+        });
+
+        //email,github,linkedin,resume
+
     </script>
+
+
 
 
 
@@ -85,6 +127,8 @@
         });
         b.start().reveal(500, 500);
     </script>
+
+
 
 
 </body>
