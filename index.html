@@ -43,11 +43,9 @@
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="row">
             <ul class="nav navbar-nav">
-                <li class="col-md-3 col-sm-4 col-xs-4" id="home"><a href="#">Home</a></li>
-                <!--                <li id="aboutMe"><a href="#">About Me</a></li>-->
-                <!--                <li id="skills"><a href="#">Skills</a></li>-->
+                <li class="col-md-3 col-sm-4 col-xs-4" id="about" onclick="aboutType()"><a href="#">About</a></li>
                 <li class="col-md-3 col-sm-4 col-xs-4" id="portfolio"><a href="#">Portfolio</a></li>
-                <li class="col-md-3 col-sm-4 col-xs-4" id="contactMe"><a href="#">Contact Me</a></li>
+                <li class="col-md-3 col-sm-4 col-xs-4" id="contactMe"><a href="#" onclick="type">Contact Me</a></li>
             </ul>
         </div>
     </nav>
@@ -59,6 +57,7 @@
         <div class="col-md-10 col-offset-1" id="box">
             <span id="typed"></span><span id="typed_2"></span>
             <span class="typed-cursor"></span>
+            <hr>
             <p class="informationText">Insert information here</p>
         </div>
     </div>
@@ -76,12 +75,12 @@
 
 
 
-        document.getElementById("home").addEventListener('click', function() {
-            Typed.new('#typed', {
-                strings: ["Hello! <br> I am a junior studying computer science at Stony Brook", ""],
-                typeSpeed: 0
-            });
-        });
+//        document.getElementById("about").addEventListener('click', function() {
+//            Typed.new('#typed', {
+//                strings: ["About"],
+//                typeSpeed: 0
+//            });
+//        });
         //include languages and technologies
 
         document.getElementById("portfolio").addEventListener('click', function() {
@@ -115,9 +114,7 @@
         b.start().reveal(500, 500);
     </script>
 
-
-<h1> THIS IS A TEST </h1>
-
+    <script src= "js/test.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@
 
 
 
-! function(window, document, $) {
+! function (window, document, $) {
 
 	"use strict";
 
