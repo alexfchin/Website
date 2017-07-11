@@ -1,17 +1,19 @@
-body,
-html {
+
+body, html {
     height: 100%;
-/*    margin: 0;*/
+    margin: 0;
+    position: relative;
 }
-
-
 
 .navbar {
     background-color: white;
     border: 0;
     -webkit-box-shadow: none;
     bo-shadow: none;
+   
 }
+
+
 
 .home {
 	text-align: center;
@@ -36,7 +38,22 @@ html {
 
 .home .myName{
     letter-spacing: 5px;
+
 }
+
+.aboutTitle{
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+p{
+    color: blue;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.main
 
 
 .circle{
@@ -48,4 +65,8 @@ html {
 /*    line-height: 12px;*/
     border: 5px solid #272323;
     border-radius: 50%;
+}
+
+.about {
+    color: royalblue;
 }
