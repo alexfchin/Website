@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     position: relative;
@@ -10,17 +10,14 @@ body, html {
     border: 0;
     -webkit-box-shadow: none;
     bo-shadow: none;
-   
 }
 
-
-
 .home {
-	text-align: center;
+    text-align: center;
     margin: 20%;
 }
 
-.home .border{
+.home .border {
     min-width: 20px;
     max-width: 300px;
     min-height: 20px;
@@ -31,42 +28,44 @@ body, html {
     padding-right: 40px;
     margin: auto;
     border: 2px;
-    border-style:solid ;
+    border-style: solid;
     align-content: center;
-   
 }
 
-.home .myName{
+.home .myName {
     letter-spacing: 5px;
-
 }
 
-.aboutTitle{
+.aboutTitle {
     color: black;
     font-weight: bold;
     font-size: 28px;
 }
 
-p{
-    color: blue;
-    font-size: 17px;
-    text-align: justify;
+.me {
+    min-width: 50%;
+    /*    border-radius: 50%;*/
 }
 
-.main
-
-
-.circle{
-    display: block;
-    
-    height: 100px;
-    width: 100px;
-    margin: 0 auto;
-/*    line-height: 12px;*/
-    border: 5px solid #272323;
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
     border-radius: 50%;
+    background-color: black;
 }
 
-.about {
-    color: royalblue;
+.center {
+    width: 50%;
+    margin: 0 auto;
 }
+
+#skillTag {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px #d2202f solid;
+    position: relative;
+}
+
+.underline {}
