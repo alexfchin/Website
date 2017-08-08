@@ -3,7 +3,6 @@ html {
     height: 100%;
     margin: 0;
     position: relative;
-
 }
 
 .navbar {
@@ -19,7 +18,7 @@ html {
 }
 
 .home .border {
-   height: 300px;
+    height: 300px;
     width: 300px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -41,64 +40,85 @@ html {
     color: RED;
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: 80px;
-    font-family: serif;
+    font-size: 80px;}
+
+section{
+    align-content: center;
+    text-align: center;
 }
 
-.circle{
-/*    background: black;*/
+.person{
+    display: inline-block;
+    text-align: center;
+}
+
+.circle {
     margin-left: 7.5px;
+    margin-top: 10%;
     width: 135px;
     height: 135px;
     border: 2px solid black;
     border-radius: 50%;
-    z-index: 0;
 }
 
 .half-circle {
     margin-top: 3px;
     border: 2px solid black;
-	 width: 150px;
+    width: 150px;
     height: 100px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-
 }
 
-.glasses-bar{
+.skills {
+    padding-top: 300px;
+}
+
+.skillTitle {
+    text-align: center;
+    font-size: 80px;
     display: block;
-    width: 30px;
-    border: 0;
-    border-bottom: 2px solid red;
-    left: 100px;
-
+    background: red;
+    color: white;
+    font-style: italic;
 }
 
-
-
-
-/*
-
-.circle {
-    width: 30px;
-    height: 30px;
-    border: 1px solid;
-    border-radius: 50%;
-    background-color: black;
-}
-
-.center {
-    width: 50%;
+.skills #display {
+    /*    center*/
+    display: block;
     margin: 0 auto;
 }
 
-#skillTag {
-    font-weight: 300;
-    display: inline-block;
-    padding-bottom: 5px;
-    border-bottom: 1px #d2202f solid;
-    position: relative;
+.skills .books {
+    float: right;
 }
 
-.underline {}
-*/
+#portfolio {
+    height: 280px;
+    width: 280px;
+    margin: auto;
+    border: 2px solid;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 85px;
+    line-height: 80%;
+}
+
+.por {
+    letter-spacing: 2px;
+}
+
+.tfo {
+    letter-spacing: 6px;
+}
+
+.lio {
+    letter-spacing: 0px;
+}
+
+.wip h1 {
+    font-size: 80px;
+    text-align: center;
+}
