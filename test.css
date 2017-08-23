@@ -14,10 +14,16 @@ html {
 
 .home {
     text-align: center;
-    margin: 20%;
+    padding: 10%;
 }
 
-.home .border {
+section {
+    padding: 10%;
+    align-content: center;
+    text-align: center;
+}
+
+.border {
     height: 300px;
     width: 300px;
     padding-top: 80px;
@@ -28,6 +34,7 @@ html {
     border: 2px;
     border-style: solid;
     align-content: center;
+    letter-spacing: 3px;
 }
 
 .home .myName {
@@ -40,14 +47,11 @@ html {
     color: RED;
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: 80px;}
-
-section{
-    align-content: center;
-    text-align: center;
+    font-size: 80px;
 }
 
-.person{
+
+.person {
     display: inline-block;
     text-align: center;
 }
@@ -70,55 +74,43 @@ section{
     border-top-right-radius: 50%;
 }
 
-.skills {
-    padding-top: 300px;
+.centered {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .centered {
+        width: 80%;
+    }
 }
 
 .skillTitle {
     text-align: center;
-    font-size: 80px;
     display: block;
     background: red;
     color: white;
     font-style: italic;
-}
-
-.skills #display {
-    /*    center*/
-    display: block;
-    margin: 0 auto;
-}
-
-.skills .books {
-    float: right;
-}
-
-#portfolio {
-    height: 280px;
-    width: 280px;
-    margin: auto;
-    border: 2px solid;
-    text-align: center;
-}
-
-.portfolio h1 {
     font-size: 85px;
-    line-height: 80%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    letter-spacing: 5px;
 }
 
-.por {
-    letter-spacing: 2px;
+.toolInfo {
+    margin: 20px;
+    padding: 20%;
 }
 
-.tfo {
-    letter-spacing: 6px;
-}
-
-.lio {
-    letter-spacing: 0px;
-}
-
-.wip h1 {
-    font-size: 80px;
+ li {
     text-align: center;
+    list-style-type: none;
+    font-family: serif;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.connectIcons {
+    margin: 10px;
 }
