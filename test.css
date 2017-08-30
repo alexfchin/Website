@@ -3,13 +3,8 @@ html {
     height: 100%;
     margin: 0;
     position: relative;
-}
-
-.navbar {
-    background-color: white;
-    border: 0;
-    -webkit-box-shadow: none;
-    bo-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .home {
@@ -74,15 +69,9 @@ section {
 }
 
 .centered {
-    width: 40%;
+    width: 80%;
     margin: auto;
     text-align: center;
-}
-
-@media only screen and (max-width: 992px) {
-    .centered {
-        width: 80%;
-    }
 }
 
 .skillTitle {
@@ -91,29 +80,48 @@ section {
     background: red;
     color: white;
     font-style: italic;
-    font-size: 85px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
     letter-spacing: 5px;
+    font-family: 'Didact Gothic', sans-serif;
+
+
 }
+
 
 .toolInfo {
     margin: 20px;
     padding: 20%;
 }
 
-li {
-    text-align: center;
-    list-style-type: none;
-    font-family: serif;
-    font-size: 18px;
-    margin-left: auto;
+.portfolio h3:hover{
+	text-decoration: underline;
+    font-style: oblique;
 }
+
 
 .connectIcons {
     margin: 10px;
 }
 
+.wip li{
+    list-style: none;
+}
+
+.BeforeScroll{
+  height: 100%; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  display: none;
+}
+
+.AfterScroll{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
 
 @media only screen and (max-device-width: 768px) {
 
@@ -123,6 +131,10 @@ li {
     }
     .skillTitle{
         font-size: 40px;
+    }
+
+    body{
+        width: auto;
     }
 }
 
